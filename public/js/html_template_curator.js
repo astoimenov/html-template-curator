@@ -466,7 +466,7 @@
                                 var imgFilename = $('#inlineImageContainer #inlineImage').data('filename');
                                 var mobileFilename = $('#inlineImageContainerMobile #inlineImage').data('filename')
                                 $.ajax({
-                                    url: templateEditorConfig.baseUrl + '/html_template_curator/award_inline_crop',
+                                    url: templateEditorConfig.baseUrl + '/html_template_curator/inline_crop',
                                     data: {
                                         x1: $('#_x1').val(),
                                         y1: $('#_y1').val(),
